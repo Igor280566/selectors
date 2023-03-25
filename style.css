@@ -1,0 +1,46 @@
+html {
+  
+    box-sizing: border-box;
+}
+ *, *::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #163152;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/*header start*/
+.main-header {
+  height: 108px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-bottom: 40px;
+}
+.main-nav ul {
+  width: 1050px;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.main-nav ul li {
+  font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+color: #163152;
+margin-right: 30px;
+}
+.main-nav ul li a {
+  text-decoration: none;
+  color: #163152;
+}
